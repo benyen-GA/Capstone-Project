@@ -1,0 +1,6 @@
+streamlit
+XGBClassifier
+pandas
+numpy 
+joblib
+xgboost
