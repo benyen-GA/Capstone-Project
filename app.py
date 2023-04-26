@@ -47,5 +47,5 @@ if st.button('Predict'):
    
     threshold = 0.05
     pred_prob = model.predict_proba(X)[0][1]
-    pred = 'Yes' if pred_prob > threshold else 'No'
-    st.markdown(f'### The insurance claim is {pred}')
+    pred = 'a Fraud' if pred_prob > threshold else 'Not a Fraud'
+    st.markdown(f'### This insurance claim is {pred}.')
